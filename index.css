@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+
+.adjust {
+    margin-left: 600px;
+    margin-top: 100px;
+    margin-bottom: 140px;
+}
+
+button {
+    cursor: pointer;
+    width: 120px;
+    height: 36px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    margin-top: 20px;
+    background: transparent;
+    border: 2px solid rgb(68, 150, 72);
+    color: white;
+    display: block;
+}
+
+button:hover {
+    background-color: rgb(68, 150, 72);
+    color: white;
+}
+
+p {
+    color: white;
+    margin-left: 580px;
+    font-size: 24px;
+}
+
+@media (max-width:550px) {
+    .adjust {
+        margin-left: 130px;
+        margin-bottom: 140px;
+    }
+    p {
+        color: white;
+        margin-left: 130px;
+        font-size: 24px;
+    }
+}
